@@ -464,12 +464,13 @@
 .news .introduce_div_after .introduce_div .list ul{
     padding-left:15px;
     font-size: 20px;
+    list-style-image:'image/announce.png';
 }
 
 .news .introduce_div_after .introduce_div .list ol{
     padding-left:15px;
     font-size: 20px;
-    list-style-image:'image/announce.png';
+    
 }
 
 .news .introduce_div_after .introduce_div .list li{
