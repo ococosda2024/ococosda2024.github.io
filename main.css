@@ -425,8 +425,128 @@
 
 /* ==================================================== */
 
-.paper{
+.news{
     background-color: var(--bg1);
+    display: flex;
+    flex-direction:column;
+    justify-content:space-around;
+    width: var(--large_width);
+    margin:auto;
+}
+
+.news h1{
+    text-align: center;
+    font-size: var(--h1_size);
+    font-family: var(--title_face);
+    padding: 40px 0;
+    padding-bottom: 30px;
+    margin: auto;
+    width: auto;
+}
+
+.news .introduce_div_after{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-around;
+    margin-bottom: 40px;
+}
+
+.news .introduce_div_after .introduce_div{
+    width:var(--content_width);;
+    margin:0 10px;
+    text-align: justify;
+}
+
+.news .introduce_div_after .introduce_div .list{
+    padding-left: 40px;
+}
+
+.news .introduce_div_after .introduce_div .list ul{
+    padding-left:15px;
+    font-size: 20px;
+}
+
+.news .introduce_div_after .introduce_div .list ol{
+    padding-left:15px;
+    font-size: 20px;
+    list-style-image:'image/announce.png';
+}
+
+.news .introduce_div_after .introduce_div .list li{
+    padding-left:5px 0;
+    font-size: 20px;
+    font-family:var(--content_face);
+}
+
+.news h2{
+    text-align: left;
+    font-family: var(--title_face);
+    font-size: var(--h2_size);
+    font-weight:bold;
+    width: auto;
+    margin-bottom: 20px;
+}
+
+.news p{
+    margin: 10px;
+    font-size: var(--p_size);
+    font-family: var(--content_face);
+    line-height: var(--p_line-height);
+}
+
+.news ol{  
+    padding-left:15px;
+    font-size: 20px; 
+}
+
+.news li{
+    padding: 5px 0;
+    font-size: var(--p_size);
+    font-family: var(--content_face);
+}
+
+
+@media(min-width: 1050px) {
+    #paper-table-1{
+        display: block;
+    }
+    #paper-table-2{
+        display: none;
+    }
+
+}
+
+@media(max-width: 1050px) {
+    #paper-table-1{
+        display: none;
+    }
+    #paper-table-2{
+        display: block;
+    }
+
+}
+
+@media(max-width: 768px) {
+    .news{
+        background-color: var(--bg1);
+        display: flex;
+        flex-direction:column;
+        justify-content:space-around;
+        width: 100%;
+        margin:auto;
+    }
+
+    .news .introduce_div_after .introduce_div{
+        width:100%;
+        margin:10px;
+    }
+}
+
+
+/* ==================================================== */
+
+.paper{
+    background-color: var(--bg2);
     display: flex;
     flex-direction:column;
     justify-content:space-around;
@@ -576,7 +696,7 @@
 
 @media(max-width: 768px) {
     .paper{
-        background-color: var(--bg1);
+        background-color: var(--bg2);
         display: flex;
         flex-direction:column;
         justify-content:space-around;
@@ -601,7 +721,7 @@
 
 /* ==================================================== */
 .sponsors{
-    background-color: var(--bg2);
+    background-color: var(--bg1);
     display: flex;
     flex-direction:column;
     justify-content:space-around;
@@ -777,7 +897,7 @@
 
 @media(max-width: 768px) {
     .programs{
-        background-color: var(--bg2);
+        background-color: var(--bg1);
         display: flex;
         flex-direction:column;
         justify-content:space-around;
@@ -791,7 +911,7 @@
 /* ==================================================== */
 
 .registration{
-    background-color: var(--bg1);
+    background-color: var(--bg2);
     width: var(--large_width);
     margin:auto;
 }
@@ -892,7 +1012,7 @@
 
 @media(max-width: 768px) {
     .registration{
-        background-color: var(--bg1);
+        background-color: var(--bg2);
         display: flex;
         flex-direction:column;
         justify-content:space-around;
@@ -908,7 +1028,7 @@
 /* ==================================================== */
 
 .keynote{
-    background-color: var(--bg2);
+    background-color: var(--bg1);
     width: var(--large_width);
     margin:auto;
 }
@@ -1070,7 +1190,7 @@
 @media(max-width: 768px) {
 
     .keynote{
-        background-color: var(--bg2);
+        background-color: var(--bg1);
         width: 100%;
         margin:auto;
     }
@@ -1079,7 +1199,7 @@
 /* ==================================================== */
 
 .Tutorials{
-    background-color: var(--bg1);
+    background-color: var(--bg2);
     display: flex;
     flex-direction:column;
     justify-content:center;
@@ -1213,7 +1333,7 @@
 @media(max-width: 768px) {
 
     .Tutorials{
-        background-color: var(--bg1);
+        background-color: var(--bg2);
         width: 100%;
         margin:auto;
     }
@@ -1222,7 +1342,7 @@
 /* ==================================================== */
 
 .special_session{
-    background-color: var(--bg2);
+    background-color: var(--bg1);
     display: flex;
     flex-direction:column;
     justify-content:center;
@@ -1329,7 +1449,7 @@
 @media(max-width: 768px) {
 
     .special_session{
-        background-color: var(--bg2);
+        background-color: var(--bg1);
         display: flex;
         flex-direction:column;
         justify-content:center;
@@ -1354,7 +1474,7 @@
 /* ==================================================== */
 
 .sharetask{
-    background-color: var(--bg1);
+    background-color: var(--bg2);
     width: var(--large_width);
     margin:auto;
 }
@@ -1567,7 +1687,7 @@
     }
 
     .sharetask{
-        background-color: var(--bg1);
+        background-color: var(--bg2);
         width: 100%;
         margin:auto;
     }
@@ -1857,7 +1977,7 @@
 /* ==================================================== */
 
 .venue{
-    background-color: var(--bg2);
+    background-color: var(--bg1);
     width: var(--large_width);
     margin:auto;
 }
@@ -2008,7 +2128,7 @@
 @media(max-width: 768px) {
 
     .venue{
-        background-color: var(--bg2);
+        background-color: var(--bg1);
         width: 100%;
         margin:auto;
     }
@@ -2016,7 +2136,7 @@
 
 /* ==================================================== */
 .trans{
-    background-color: var(--bg1);
+    background-color: var(--bg2);
     width: var(--large_width);
     margin:auto;
 }
@@ -2066,7 +2186,7 @@
 
 @media(max-width: 768px) {
     .trans{
-        background-color: var(--bg1);
+        background-color: var(--bg2);
         width: 100%;
         margin:auto;
     }
@@ -2084,7 +2204,7 @@
 
 /* ==================================================== */
 .visa{
-    background-color: var(--bg2);
+    background-color: var(--bg1);
     width: var(--large_width);
     margin:auto;
 }
@@ -2151,7 +2271,7 @@
 
 @media(max-width: 768px) {
     .visa{
-        background-color: var(--bg2);
+        background-color: var(--bg1);
         width: 100%;
         margin:auto;
     }
@@ -2169,7 +2289,7 @@
 
 /* ==================================================== */
 .accomm{
-    background-color: var(--bg1);
+    background-color: var(--bg2);
     width: var(--large_width);
     margin:auto;
 }
