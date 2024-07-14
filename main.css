@@ -482,7 +482,7 @@
     display: flex;
     align-items: flex-start; /* 垂直居中对齐 */
     justify-content: space-between; /* 水平间隔 */
-    padding: 20px;
+    padding: 10px;
 }
 
 .news .introduce_div_after .introduce_div .text-photo .text {
