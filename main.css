@@ -478,7 +478,26 @@
     font-size: 20px;
     font-family:var(--content_face);
 }
+.news .introduce_div_after .introduce_div .text-photo{
+    display: flex;
+    align-items: flex-start; /* 垂直居中对齐 */
+    justify-content: space-between; /* 水平间隔 */
+    padding: 20px;
+}
 
+.news .introduce_div_after .introduce_div .text-photo .text {
+    flex-basis: 95%; /* 占据容器的一半宽度 */
+    margin-left: 10px; /* 设置文字和图片之间的间距 */
+}
+
+.news .introduce_div_after .introduce_div .text-photo .image {
+    flex-basis: 5%; /* 占据容器的一半宽度 */
+}
+
+.news .introduce_div_after .introduce_div .text-photo .image img {
+    max-width: 100%; /* 确保图片不超过容器宽度 */
+    height:  40px;
+}
 .news h2{
     text-align: left;
     font-family: var(--title_face);
