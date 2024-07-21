@@ -1084,7 +1084,7 @@
     flex-direction:row;
     justify-content:left;
     padding-bottom: 40px;
-    border-bottom: 2px solid rgb(0, 0, 0);
+/*     border-bottom: 2px solid rgb(0, 0, 0); */
 }
 
 .keynote .part .intro_img img{
