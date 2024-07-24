@@ -10,6 +10,7 @@
     --p_size: 20px;
     --h1_size: 46px; 
     --h2_size: 30px; 
+    --h3_size: 25px; 
     --title_face: 'Times New Romans';
     --content_face: 'Microsoft JhengHei';
     
@@ -567,8 +568,192 @@
 
 /* ==================================================== */
 
-.paper{
+.registration{
     background-color: var(--bg2);
+    display: flex;
+    flex-direction:column;
+    justify-content:space-around;
+    width: var(--large_width);
+    margin:auto;
+}
+
+.registration h1{
+    text-align: center;
+    font-size: var(--h1_size);
+    font-family: var(--title_face);
+    padding: 40px 0;
+    padding-bottom: 30px;
+    margin: auto;
+    width: auto;
+}
+
+.registration .introduce_div_before{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-around;
+}
+
+.registration .introduce_div_before .introduce_div{
+    width:var(--content_width);;
+    margin:0 10px;
+    text-align: justify;
+}
+
+.registration .introduce_div_before .introduce_div .list{
+    padding-left: 40px;
+}
+
+.registration .introduce_div_before .introduce_div .list ul{
+    padding-left:15px;
+    font-size: 20px;
+}
+
+.registration .introduce_div_before .introduce_div .list ol{
+    padding-left:15px;
+    font-size: 20px;
+}
+
+.registration .introduce_div_before .introduce_div .list li{
+    padding-left:5px 0;
+    font-size: 20px;
+    font-family:var(--content_face);
+}
+
+.registration .table_div_mid{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-around;
+    width: var(--content_width);
+    margin: 20px auto;
+}
+
+.registration .table_div_mid table{
+    width: var(--content_width);
+}
+
+.registration .table_div_mid th {
+    text-align: center;
+    border: 3px solid black;
+    font-size: var(--p_size);
+    font-family: var(--content_face);
+    line-height: var(--p_line-height);
+}
+
+.registration .table_div_mid tr{
+    border: 3px solid black;
+    padding-top: 0;
+    padding-right: 5px;
+}
+
+.registration .table_div_mid td{
+    border: 3px solid black;
+    padding-right: 5px;
+    line-height: 24px;
+    font-size: var(--p_size);
+    font-family: var(--content_face);
+    line-height: var(--p_line-height);
+    text-align:center;
+    vertical-align:text-top;
+}
+
+.registration .introduce_div_after{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-around;
+    margin-bottom: 40px;
+}
+
+.registration .introduce_div_after .introduce_div{
+    width:var(--content_width);;
+    margin:10px;
+    text-align: justify;
+}
+
+.registration h2{
+    text-align: left;
+    font-family: var(--title_face);
+    font-size: var(--h2_size);
+    font-weight:bold;
+    width: auto;
+    margin-bottom: 20px;
+}
+
+.registration h3{
+    text-align: left;
+    font-family: var(--title_face);
+    font-size: var(--h3_size);
+    font-weight:bold;
+    width: auto;
+    margin-bottom: 20px;
+}
+
+.registration p{
+    margin: 10px;
+    font-size: var(--p_size);
+    font-family: var(--content_face);
+    line-height: var(--p_line-height);
+}
+
+.registration ol{  
+    padding-left:15px;
+    font-size: 20px; 
+}
+
+.registration li{
+    padding: 5px 0;
+    font-size: var(--p_size);
+    font-family: var(--content_face);
+}
+
+
+@media(min-width: 1050px) {
+    #registration-table-1{
+        display: block;
+    }
+    #registration-table-2{
+        display: none;
+    }
+
+}
+
+@media(max-width: 1050px) {
+    #registration-table-1{
+        display: none;
+    }
+    #registration-table-2{
+        display: block;
+    }
+
+}
+
+@media(max-width: 768px) {
+    .registration{
+        background-color: var(--bg2);
+        display: flex;
+        flex-direction:column;
+        justify-content:space-around;
+        width: 100%;
+        margin:auto;
+    }
+
+    .registration .introduce_div_before .introduce_div{
+        width:100%;
+        margin:10px;
+    }
+
+    .registration .table_div_mid table{
+        width: 100%;
+    }
+
+    .registration .introduce_div_after .introduce_div{
+        width:100%;
+        margin:10px;
+    }
+}
+/* ==================================================== */
+
+.paper{
+    background-color: var(--bg1);
     display: flex;
     flex-direction:column;
     justify-content:space-around;
@@ -718,7 +903,7 @@
 
 @media(max-width: 768px) {
     .paper{
-        background-color: var(--bg2);
+        background-color: var(--bg1);
         display: flex;
         flex-direction:column;
         justify-content:space-around;
@@ -743,7 +928,7 @@
 
 /* ==================================================== */
 .sponsors{
-    background-color: var(--bg1);
+    background-color: var(--bg2);
     display: flex;
     flex-direction:column;
     justify-content:space-around;
@@ -783,7 +968,7 @@
 /* ==================================================== */
 
 .dates{
-    background-color: var(--bg2);
+    background-color: var(--bg1);
     width: var(--large_width);
     margin:auto;
 }
@@ -932,7 +1117,7 @@
 
 /* ==================================================== */
 
-.registration{
+/* .registration{
     background-color: var(--bg2);
     width: var(--large_width);
     margin:auto;
@@ -1046,11 +1231,11 @@
         width: auto;
     }
 
-}
+} */
 /* ==================================================== */
 
 .keynote{
-    background-color: var(--bg1);
+    background-color: var(--bg2);
     width: var(--large_width);
     margin:auto;
 }
@@ -1212,7 +1397,7 @@
 @media(max-width: 768px) {
 
     .keynote{
-        background-color: var(--bg1);
+        background-color: var(--bg2);
         width: 100%;
         margin:auto;
     }
@@ -1730,7 +1915,7 @@
 /* ==================================================== */
 
 .organization{
-    background-color: var(--bg2);
+    background-color: var(--bg1);
     width: var(--large_width);
     margin:auto;
 }
@@ -1972,7 +2157,7 @@
 @media(max-width: 768px) {
 
     .organization{
-        background-color: var(--bg2);
+        background-color: var(--bg1);
         width: 100%;
         margin:auto;
     }
@@ -1999,7 +2184,7 @@
 /* ==================================================== */
 
 .venue{
-    background-color: var(--bg1);
+    background-color: var(--bg2);
     width: var(--large_width);
     margin:auto;
 }
@@ -2150,7 +2335,7 @@
 @media(max-width: 768px) {
 
     .venue{
-        background-color: var(--bg1);
+        background-color: var(--bg2);
         width: 100%;
         margin:auto;
     }
@@ -2158,7 +2343,7 @@
 
 /* ==================================================== */
 .trans{
-    background-color: var(--bg2);
+    background-color: var(--bg1);
     width: var(--large_width);
     margin:auto;
 }
@@ -2208,7 +2393,7 @@
 
 @media(max-width: 768px) {
     .trans{
-        background-color: var(--bg2);
+        background-color: var(--bg1);
         width: 100%;
         margin:auto;
     }
@@ -2226,7 +2411,7 @@
 
 /* ==================================================== */
 .visa{
-    background-color: var(--bg1);
+    background-color: var(--bg2);
     width: var(--large_width);
     margin:auto;
 }
@@ -2293,7 +2478,7 @@
 
 @media(max-width: 768px) {
     .visa{
-        background-color: var(--bg1);
+        background-color: var(--bg2);
         width: 100%;
         margin:auto;
     }
@@ -2311,7 +2496,7 @@
 
 /* ==================================================== */
 .accomm{
-    background-color: var(--bg2);
+    background-color: var(--bg1);
     width: var(--large_width);
     margin:auto;
 }
@@ -2376,8 +2561,8 @@
 }
 
 .accomm .introduce_div_before .introduce_div .image_div .image{
-    flex: 1;
-/*     flex-basis: 33%; */
+    /* flex-basis: 33%; */
+    flex: 1; 
     margin: 2px; 
 }
 .accomm .introduce_div_before .introduce_div .image_div .image img{
