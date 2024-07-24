@@ -2345,6 +2345,47 @@
     text-align: justify;
 }
 
+.accomm .introduce_div_before .introduce_div .list{
+    margin-top: 0.5%;
+    padding-left: 40px;
+}
+
+.accomm .introduce_div_before .introduce_div .list ul{
+    padding-left:15px;
+    font-size: 20px;
+}
+
+.accomm .introduce_div_before .introduce_div .list ol{
+    padding-left:15px;
+    font-size: 20px;
+}
+
+.accomm .introduce_div_before .introduce_div .list li{
+    padding-left:5px 0;
+    font-size: 20px;
+    font-family:var(--content_face);
+}
+
+.accomm .introduce_div_before .introduce_div .image_div{
+    display: flex;
+    align-items: flex-start; 
+    justify-content: space-between; 
+    padding: 10px;
+    padding-left:50px;
+    
+}
+
+.accomm .introduce_div_before .introduce_div .image_div .image{
+    flex-basis: 33%;
+    /* margin: 2px;  */
+}
+.accomm .introduce_div_before .introduce_div .image_div .image img{
+    max-width: 100%; /* 确保图片不超过容器宽度 */
+    height:  480px;
+    margin-bottom: 2px;
+}
+
+
 .accomm p{
     margin: 10px;
     font-size: var(--p_size);
