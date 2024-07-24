@@ -2376,8 +2376,9 @@
 }
 
 .accomm .introduce_div_before .introduce_div .image_div .image{
-    flex-basis: 33%;
-    /* margin: 2px;  */
+    flex: 1;
+/*     flex-basis: 33%; */
+    margin: 2px; 
 }
 .accomm .introduce_div_before .introduce_div .image_div .image img{
     max-width: 100%; /* 确保图片不超过容器宽度 */
