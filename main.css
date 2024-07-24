@@ -968,13 +968,13 @@
 /* ==================================================== */
 
 .dates{
-    background-color: var(--bg1);
+    background-color: var(--bg2);
     width: var(--large_width);
     margin:auto;
 }
 
 .dates h1{
-    text-align: center;
+    text-align: center2
     font-size: var(--h1_size);
     font-family: var(--title_face);
     padding: 40px 0;
@@ -1235,7 +1235,7 @@
 /* ==================================================== */
 
 .keynote{
-    background-color: var(--bg2);
+    background-color: var(--bg1);
     width: var(--large_width);
     margin:auto;
 }
@@ -1397,7 +1397,7 @@
 @media(max-width: 768px) {
 
     .keynote{
-        background-color: var(--bg2);
+        background-color: var(--bg1);
         width: 100%;
         margin:auto;
     }
@@ -1915,7 +1915,7 @@
 /* ==================================================== */
 
 .organization{
-    background-color: var(--bg1);
+    background-color: var(--bg2);
     width: var(--large_width);
     margin:auto;
 }
@@ -2157,7 +2157,7 @@
 @media(max-width: 768px) {
 
     .organization{
-        background-color: var(--bg1);
+        background-color: var(--bg2);
         width: 100%;
         margin:auto;
     }
@@ -2184,7 +2184,7 @@
 /* ==================================================== */
 
 .venue{
-    background-color: var(--bg2);
+    background-color: var(--bg1);
     width: var(--large_width);
     margin:auto;
 }
@@ -2335,7 +2335,7 @@
 @media(max-width: 768px) {
 
     .venue{
-        background-color: var(--bg2);
+        background-color: var(--bg1);
         width: 100%;
         margin:auto;
     }
@@ -2343,7 +2343,7 @@
 
 /* ==================================================== */
 .trans{
-    background-color: var(--bg1);
+    background-color: var(--bg2);
     width: var(--large_width);
     margin:auto;
 }
@@ -2393,7 +2393,7 @@
 
 @media(max-width: 768px) {
     .trans{
-        background-color: var(--bg1);
+        background-color: var(--bg2);
         width: 100%;
         margin:auto;
     }
@@ -2411,7 +2411,7 @@
 
 /* ==================================================== */
 .visa{
-    background-color: var(--bg2);
+    background-color: var(--bg1);
     width: var(--large_width);
     margin:auto;
 }
@@ -2478,7 +2478,7 @@
 
 @media(max-width: 768px) {
     .visa{
-        background-color: var(--bg2);
+        background-color: var(--bg1);
         width: 100%;
         margin:auto;
     }
@@ -2496,7 +2496,7 @@
 
 /* ==================================================== */
 .accomm{
-    background-color: var(--bg1);
+    background-color: var(--bg2);
     width: var(--large_width);
     margin:auto;
 }
