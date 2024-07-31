@@ -569,7 +569,7 @@
 /* ==================================================== */
 
 .registration{
-    background-color: var(--bg2);
+    background-color: var(--bg1);
     display: flex;
     flex-direction:column;
     justify-content:space-around;
@@ -728,7 +728,7 @@
 
 @media(max-width: 768px) {
     .registration{
-        background-color: var(--bg2);
+        background-color: var(--bg1);
         display: flex;
         flex-direction:column;
         justify-content:space-around;
@@ -753,7 +753,7 @@
 /* ==================================================== */
 
 .paper{
-    background-color: var(--bg1);
+    background-color: var(--bg2);
     display: flex;
     flex-direction:column;
     justify-content:space-around;
@@ -903,7 +903,7 @@
 
 @media(max-width: 768px) {
     .paper{
-        background-color: var(--bg1);
+        background-color: var(--bg2);
         display: flex;
         flex-direction:column;
         justify-content:space-around;
@@ -968,7 +968,7 @@
 /* ==================================================== */
 
 .dates{
-    background-color: var(--bg2);
+    background-color: var(--bg1);
     width: var(--large_width);
     margin:auto;
 }
@@ -1015,7 +1015,7 @@
 /* ==================================================== */
 
 .programs{
-    background-color: var(--bg2);
+    background-color: var(--bg1);
     width: var(--large_width);
     margin:auto;
 }
@@ -1235,7 +1235,7 @@
 /* ==================================================== */
 
 .keynote{
-    background-color: var(--bg1);
+    background-color: var(--bg2);
     width: var(--large_width);
     margin:auto;
 }
@@ -1398,7 +1398,7 @@
 @media(max-width: 768px) {
 
     .keynote{
-        background-color: var(--bg1);
+        background-color: var(--bg2);
         width: 100%;
         margin:auto;
     }
@@ -1916,7 +1916,7 @@
 /* ==================================================== */
 
 .organization{
-    background-color: var(--bg2);
+    background-color: var(--bg1);
     width: var(--large_width);
     margin:auto;
 }
@@ -2158,7 +2158,7 @@
 @media(max-width: 768px) {
 
     .organization{
-        background-color: var(--bg2);
+        background-color: var(--bg1);
         width: 100%;
         margin:auto;
     }
@@ -2185,7 +2185,7 @@
 /* ==================================================== */
 
 .venue{
-    background-color: var(--bg1);
+    background-color: var(--bg2);
     width: var(--large_width);
     margin:auto;
 }
@@ -2336,7 +2336,7 @@
 @media(max-width: 768px) {
 
     .venue{
-        background-color: var(--bg1);
+        background-color: var(--bg2);
         width: 100%;
         margin:auto;
     }
@@ -2344,7 +2344,7 @@
 
 /* ==================================================== */
 .trans{
-    background-color: var(--bg2);
+    background-color: var(--bg1);
     width: var(--large_width);
     margin:auto;
 }
@@ -2394,7 +2394,7 @@
 
 @media(max-width: 768px) {
     .trans{
-        background-color: var(--bg2);
+        background-color: var(--bg1);
         width: 100%;
         margin:auto;
     }
@@ -2412,7 +2412,7 @@
 
 /* ==================================================== */
 .visa{
-    background-color: var(--bg1);
+    background-color: var(--bg2);
     width: var(--large_width);
     margin:auto;
 }
@@ -2479,7 +2479,7 @@
 
 @media(max-width: 768px) {
     .visa{
-        background-color: var(--bg1);
+        background-color: var(--bg2);
         width: 100%;
         margin:auto;
     }
@@ -2497,7 +2497,7 @@
 
 /* ==================================================== */
 .accomm{
-    background-color: var(--bg2);
+    background-color: var(--bg1);
     width: var(--large_width);
     margin:auto;
 }
