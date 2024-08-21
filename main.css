@@ -445,6 +445,15 @@
     width: auto;
 }
 
+.registration h3{
+    text-align: left;
+    font-family: var(--title_face);
+    font-size: var(--h3_size);
+    font-weight:bold;
+    width: auto;
+    margin-bottom: 20px;
+}
+
 /* ==================================================== */
 
 .news{
