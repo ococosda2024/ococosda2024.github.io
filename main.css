@@ -446,7 +446,7 @@
 }
 
 .cultural h3{
-    text-align: left;
+    text-align: center;
     font-family: var(--title_face);
     font-size: var(--h3_size);
     font-weight:bold;
