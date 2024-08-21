@@ -426,6 +426,27 @@
 
 /* ==================================================== */
 
+.cultural{
+    background-color: var(--bg1);
+    /* display: flex;
+    flex-direction:column;
+    justify-content:space-around; */
+    width: var(--large_width);
+    margin:auto;
+}
+
+.cultural h1{
+    text-align: center;
+    font-size: var(--h1_size);
+    font-family: var(--title_face);
+    padding: 40px 0;
+    padding-bottom: 30px;
+    margin: auto;
+    width: auto;
+}
+
+/* ==================================================== */
+
 .news{
     background-color: var(--bg1);
     /* display: flex;
