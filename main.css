@@ -447,11 +447,12 @@
 
 .cultural h3{
     text-align: center;
-    font-family: var(--title_face);
     font-size: var(--h3_size);
-    font-weight:bold;
+    font-family: var(--title_face);
+    padding: 40px 0;
+    padding-bottom: 30px;
+    margin: auto;
     width: auto;
-    margin-bottom: 20px;
 }
 
 /* ==================================================== */
