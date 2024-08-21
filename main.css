@@ -428,9 +428,9 @@
 
 .cultural{
     background-color: var(--bg1);
-    /* display: flex;
+    display: flex;
     flex-direction:column;
-    justify-content:space-around; */
+    justify-content:space-around;
     width: var(--large_width);
     margin:auto;
 }
