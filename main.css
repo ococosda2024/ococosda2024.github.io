@@ -804,6 +804,16 @@
     width: auto;
 }
 
+.registration h3{
+    text-align: center;
+    font-size: var(--h3_size);
+    font-family: var(--title_face);
+    padding: 40px 0;
+    padding-bottom: 30px;
+    margin: auto;
+    width: auto;
+}
+
 .registration .introduce_div_before{
     display: flex;
     flex-direction:row;
