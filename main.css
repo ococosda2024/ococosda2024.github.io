@@ -980,7 +980,7 @@
 /* ==================================================== */
 
 .paper{
-    background-color: var(--bg1);
+    background-color: var(--bg2);
     display: flex;
     flex-direction:column;
     justify-content:space-around;
@@ -1130,7 +1130,7 @@
 
 @media(max-width: 768px) {
     .paper{
-        background-color: var(--bg1);
+        background-color: var(--bg2);
         display: flex;
         flex-direction:column;
         justify-content:space-around;
@@ -1195,7 +1195,7 @@
 /* ==================================================== */
 
 .dates{
-    background-color: var(--bg2);
+    background-color: var(--bg1);
     width: var(--large_width);
     margin:auto;
 }
@@ -2143,7 +2143,7 @@
 /* ==================================================== */
 
 .organization{
-    background-color: var(--bg1);
+    background-color: var(--bg2);
     width: var(--large_width);
     margin:auto;
 }
@@ -2412,7 +2412,7 @@
 /* ==================================================== */
 
 .venue{
-    background-color: var(--bg1);
+    background-color: var(--bg2);
     width: var(--large_width);
     margin:auto;
 }
@@ -2563,7 +2563,7 @@
 @media(max-width: 768px) {
 
     .venue{
-        background-color: var(--bg1);
+        background-color: var(--bg2);
         width: 100%;
         margin:auto;
     }
@@ -2724,7 +2724,7 @@
 
 /* ==================================================== */
 .accomm{
-    background-color: var(--bg2);
+    background-color: var(--bg1);
     width: var(--large_width);
     margin:auto;
 }
