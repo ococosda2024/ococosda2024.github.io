@@ -2426,6 +2426,15 @@
     width: auto;
 }
 
+.venue h3{
+    text-align: center;
+    font-size: var(--h3_size);
+    font-family: var(--content_face);
+    padding: 40px 0;
+    margin: auto;
+    width: auto;
+}
+
 .venue p{
     text-align: justify;
     margin: auto;
