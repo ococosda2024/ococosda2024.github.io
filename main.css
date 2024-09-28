@@ -1317,14 +1317,14 @@
     border-top: 1px solid black;
 }
 
-.programs .part h4{
+/* .programs .part h4{
     text-align: left;
     font-family: var(--title_face);
     font-size: var(--h2_size);
     font-weight:normal;
     width: auto;
     margin-bottom: 5px;
-}
+} */
 
 .programs .part p{
     text-align: left;
