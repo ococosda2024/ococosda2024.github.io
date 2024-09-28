@@ -1298,7 +1298,7 @@
 }
 
 .programs .part h4{
-    text-align: center;
+    text-align: left;
     font-family: var(--title_face);
     font-size: var(--h4_size);
     font-weight:normal;
