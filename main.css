@@ -11,6 +11,7 @@
     --h1_size: 46px; 
     --h2_size: 30px; 
     --h3_size: 25px; 
+    --h4_size: 20px;
     --title_face: 'Times New Romans';
     --content_face: 'Microsoft JhengHei';
     
@@ -1290,7 +1291,16 @@
 .programs .part h3{
     text-align: center;
     font-family: var(--title_face);
-    font-size: var(--h2_size);
+    font-size: var(--h3_size);
+    font-weight:normal;
+    width: auto;
+    margin-bottom: 20px;
+}
+
+.programs .part h4{
+    text-align: center;
+    font-family: var(--title_face);
+    font-size: var(--h4_size);
     font-weight:normal;
     width: auto;
     margin-bottom: 20px;
