@@ -122,7 +122,7 @@
     background-color:white;
     height: var(--ann_height);
     min-height: var(--ann_min_height);
-     width: var(--large_width);
+/*      width: var(--large_width); */
 /*     display: flex;
     flex-direction:column;
     justify-content:space-around;
