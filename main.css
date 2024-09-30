@@ -850,6 +850,7 @@
     padding-left:5px 0;
     font-size: 20px;
     font-family:var(--content_face);
+    font-weight: normal;
 }
 
 .registration .table_div_mid{
@@ -925,6 +926,7 @@
     font-size: var(--p_size);
     font-family: var(--content_face);
     line-height: var(--p_line-height);
+    font-weight: normal;
 }
 
 .registration ol{  
