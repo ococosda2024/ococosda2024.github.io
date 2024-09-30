@@ -1033,14 +1033,14 @@
 .paper .introduce_div_before .introduce_div .list li{
     padding-left:5px 0;
     font-size: 20px;
-    font-family:var(--content_face);
+    font-family:var(--title_face);
 }
 
 .paper .table_div_mid{
     display: flex;
     flex-direction:row;
     justify-content:space-around;
-    width: var(--content_width);
+    width: var(--title_face);
     margin: 20px auto;
 }
 
@@ -1052,7 +1052,7 @@
     text-align: center;
     border: 3px solid black;
     font-size: var(--p_size);
-    font-family: var(--content_face);
+    font-family: var(--title_face);
     line-height: var(--p_line-height);
 }
 
@@ -1067,7 +1067,7 @@
     padding-right: 5px;
     line-height: 24px;
     font-size: var(--p_size);
-    font-family: var(--content_face);
+    font-family: var(--title_face);
     line-height: var(--p_line-height);
     text-align:left;
     vertical-align:text-top;
@@ -1098,7 +1098,7 @@
 .paper p{
     margin: 10px;
     font-size: var(--p_size);
-    font-family: var(--content_face);
+    font-family: var(--title_face);
     line-height: var(--p_line-height);
 }
 
@@ -1110,7 +1110,7 @@
 .paper li{
     padding: 5px 0;
     font-size: var(--p_size);
-    font-family: var(--content_face);
+    font-family: var(--title_face);
 }
 
 
@@ -1228,7 +1228,7 @@
 .dates .importantdate p{
     margin: 10px;
     font-size: var(--p_size);
-    font-family: var(--content_face);
+    font-family: var(--title_face);
     line-height: var(--p_line-height);
     margin-bottom: 40px;
 }
@@ -1242,7 +1242,7 @@
 .dates .importantdate .item ul li{
     padding: 5px 0;
     font-size: var(--p_size);
-    font-family: var(--content_face);
+    font-family: var(--title_face);
 }
 
 /* ==================================================== */
