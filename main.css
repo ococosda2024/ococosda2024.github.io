@@ -121,6 +121,8 @@
     background-color:white;
     height: var(--ann_height);
     min-height: var(--ann_min_height);
+    margin: 0; 
+    padding: 0; 
 }
 
 .announcement .bg{
@@ -471,7 +473,7 @@
     flex-direction:column;
     justify-content:space-around; */
     width: var(--large_width);
-    margin:auto;
+/*     margin:auto; */
 }
 
 .news h1{
