@@ -856,7 +856,7 @@
 .registration .introduce_div_before .introduce_div .list li{
     padding-left:5px 0;
     font-size: 20px;
-    font-family:var(--content_face);
+    font-family:var(--title_face);
 }
 
 .registration .table_div_mid{
