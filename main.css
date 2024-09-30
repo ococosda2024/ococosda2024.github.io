@@ -929,7 +929,7 @@
 .registration p{
     margin: 10px;
     font-size: var(--p_size);
-    font-family: var(--content_face);
+    font-family: var(--title_face);
     line-height: var(--p_line-height);
 }
 
@@ -941,7 +941,7 @@
 .registration li{
     padding: 5px 0;
     font-size: var(--p_size);
-    font-family: var(--content_face);
+    font-family: var(--title_face);
 }
 
 
@@ -2456,7 +2456,7 @@
 .venue h3{
     text-align: center;
     font-size: var(--h3_size);
-    font-family: var(--content_face);
+    font-family: var(--title_face);
     padding: 40px 0;
     margin: auto;
     width: auto;
@@ -2466,7 +2466,7 @@
     text-align: justify;
     margin: auto;
     font-size: var(--p_size);
-    font-family: var(--content_face);
+    font-family: var(--title_face);
     line-height: var(--p_line-height);
     margin: 0 20px;
 }
@@ -2533,7 +2533,7 @@
 .venue li{
     padding: 5px 0;
     font-size: var(--p_size);
-    font-family: var(--content_face);
+    font-family: var(--title_face);
 }
 
 .venue .introduce_div_before .introduce_div .photo-container {
@@ -2651,7 +2651,7 @@
 .trans .introduce_div_before .introduce_div .list li{
     padding-left:5px 0;
     font-size: 20px;
-    font-family:var(--content_face);
+    font-family:var(--title_face);
 }
 
 
@@ -2705,7 +2705,7 @@
 .visa p{
     margin: 10px;
     font-size: var(--p_size);
-    font-family: var(--content_face);
+    font-family: var(--title_face);
     line-height: var(--p_line-height);
 }
 
@@ -2839,7 +2839,7 @@
 .accomm p{
     margin: 10px;
     font-size: var(--p_size);
-    font-family: var(--content_face);
+    font-family: var(--title_face);
     line-height: var(--p_line-height);
 }
 
