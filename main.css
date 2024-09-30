@@ -469,11 +469,17 @@
 
 .news{
     background-color: var(--bg1);
+    display: flex;
+    flex-direction:column;
+    justify-content:space-around;
+    width: var(--large_width);
+    margin:auto;
+/*     background-color: var(--bg1); */
     /* display: flex;
     flex-direction:column;
     justify-content:space-around; */
-    width: var(--large_width);
-    margin: auto;
+/*     width: var(--large_width);
+    margin: auto; */
 }
 
 .news h1{
