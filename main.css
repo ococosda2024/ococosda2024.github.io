@@ -1117,7 +1117,8 @@
 .paper li{
     padding: 5px 0;
     font-size: var(--p_size);
-    font-family: var(--title_face);
+    font-family: var(--content_face);
+    font-weight: normal;
 }
 
 
