@@ -923,7 +923,7 @@
 .registration p{
     margin: 10px;
     font-size: var(--p_size);
-    font-family: var(--title_face);
+    font-family: var(--content_face);
     line-height: var(--p_line-height);
 }
 
@@ -935,7 +935,7 @@
 .registration li{
     padding: 5px 0;
     font-size: var(--p_size);
-    font-family: var(--title_face);
+    font-family: var(--content_face);
 }
 
 
