@@ -473,7 +473,7 @@
     flex-direction:column;
     justify-content:space-around; */
     width: var(--large_width);
-/*     margin:auto; */
+    margin: 0;
 }
 
 .news h1{
