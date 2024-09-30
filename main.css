@@ -810,16 +810,6 @@
     width: auto;
 }
 
-.registration h3{
-    text-align: center;
-    font-size: var(--h3_size);
-    font-family: var(--title_face);
-    padding: 40px 0;
-    padding-bottom: 30px;
-    margin: auto;
-    width: auto;
-}
-
 .registration .introduce_div_before{
     display: flex;
     flex-direction:row;
@@ -849,7 +839,7 @@
 .registration .introduce_div_before .introduce_div .list li{
     padding-left:5px 0;
     font-size: 20px;
-    font-family:var(--title_face);
+    font-family:var(--content_face);
 }
 
 .registration .table_div_mid{
@@ -2695,20 +2685,6 @@
     margin:0 10px;
     text-align: justify;
 }
-
-.visa .introduce_div_before .introduce_div .p{
-/*     margin: 10px;
-    font-size: var(--p_size);
-    font-family: var(--content_face);
-    line-height: var(--p_line-height); */
-    text-align: justify;
-    margin: auto;
-    font-size: var(--p_size);
-    font-family: var(--content_face);
-    line-height: var(--p_line-height);
-    margin: 0 20px;
-}
-
 
 .visa p{
     margin: 10px;
