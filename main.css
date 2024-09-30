@@ -1034,6 +1034,7 @@
     padding-left:5px 0;
     font-size: 20px;
     font-family:var(--content_face);
+    font-weight: normal;
 }
 
 .paper .table_div_mid{
@@ -1100,6 +1101,7 @@
     font-size: var(--p_size);
     font-family: var(--content_face);
     line-height: var(--p_line-height);
+    font-weight: normal;
 }
 
 .paper ol{  
@@ -1228,9 +1230,10 @@
 .dates .importantdate p{
     margin: 10px;
     font-size: var(--p_size);
-    font-family: var(--title_face);
+    font-family: var(--content_face);
     line-height: var(--p_line-height);
     margin-bottom: 40px;
+    font-weight: normal;
 }
 
 .dates .importantdate .item ul {
@@ -1242,7 +1245,8 @@
 .dates .importantdate .item ul li{
     padding: 5px 0;
     font-size: var(--p_size);
-    font-family: var(--title_face);
+    font-family: var(--content_face);
+    font-weight: normal;
 }
 
 /* ==================================================== */
