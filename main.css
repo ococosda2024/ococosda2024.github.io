@@ -2696,20 +2696,20 @@
     text-align: justify;
 }
 
-.visa .introduce_div_before .introduce_div .p{
-    margin: 10px;
-    font-size: var(--p_size);
-    font-family: var(--content_face);
-    line-height: var(--p_line-height);
-}
-
-
-/* .visa p{
+/* .visa .introduce_div_before .introduce_div .p{
     margin: 10px;
     font-size: var(--p_size);
     font-family: var(--content_face);
     line-height: var(--p_line-height);
 } */
+
+
+.visa p{
+    margin: 10px;
+    font-size: var(--p_size);
+    font-family: var(--content_face);
+    line-height: var(--p_line-height);
+}
 
 .visa .introduce_div_before .introduce_div .list{
     margin-top: 2%;
