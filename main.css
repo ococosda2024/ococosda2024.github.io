@@ -2460,9 +2460,10 @@
     text-align: justify;
     margin: auto;
     font-size: var(--p_size);
-    font-family: var(--title_face);
+    font-family: var(--content_face);
     line-height: var(--p_line-height);
     margin: 0 20px;
+    font-weight: normal;
 }
 
 .venue .introduce_div_before{
@@ -2527,7 +2528,8 @@
 .venue li{
     padding: 5px 0;
     font-size: var(--p_size);
-    font-family: var(--title_face);
+    font-family: var(--content_face);
+    font-weight: normal;
 }
 
 .venue .introduce_div_before .introduce_div .photo-container {
@@ -2701,6 +2703,7 @@
     font-size: var(--p_size);
     font-family: var(--content_face);
     line-height: var(--p_line-height);
+    font-weight: normal;
 }
 
 .visa .introduce_div_before .introduce_div .list{
@@ -2722,6 +2725,7 @@
     padding-left:5px 0;
     font-size: 20px;
     font-family:var(--content_face);
+    font-weight: normal;
 }
 
 .visa h2{
@@ -2807,6 +2811,7 @@
     padding-left:5px 0;
     font-size: 20px;
     font-family:var(--content_face);
+    font-weight: normal;
 }
 
 .accomm .introduce_div_before .introduce_div .image_div{
@@ -2835,6 +2840,7 @@
     font-size: var(--p_size);
     font-family: var(--title_face);
     line-height: var(--p_line-height);
+    font-weight: normal;
 }
 
 /* ==================================================== */
