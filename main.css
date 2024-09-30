@@ -117,7 +117,22 @@
 }
 
 /* ==================================================== */
+/* 
+.announcement{
+    background-color:white;
+    height: var(--ann_height);
+    min-height: var(--ann_min_height);
+}
 
+.announcement .bg{
+    background-color:var(--bg1);
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+}
+ */
 .announcement{
     background-color:white;
     height: var(--ann_height);
