@@ -119,7 +119,7 @@
 /* ==================================================== */
 
 .announcement{
-    background-color:var(--bg1);
+    background-color:white;
     height: var(--ann_height);
     min-height: var(--ann_min_height);
     display: flex;
