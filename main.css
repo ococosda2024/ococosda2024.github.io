@@ -938,6 +938,7 @@
     padding: 5px 0;
     font-size: var(--p_size);
     font-family: var(--content_face);
+    font-weight: normal;
 }
 
 
@@ -1030,6 +1031,7 @@
 .paper .introduce_div_before .introduce_div .list ol{
     padding-left:15px;
     font-size: 20px;
+    font-weight: normal;
 }
 
 .paper .introduce_div_before .introduce_div .list li{
@@ -1070,8 +1072,9 @@
     padding-right: 5px;
     line-height: 24px;
     font-size: var(--p_size);
-    font-family: var(--title_face);
+    font-family: var(--content_face);
     line-height: var(--p_line-height);
+    font-weight: normal;
     text-align:left;
     vertical-align:text-top;
 }
@@ -1240,6 +1243,7 @@
 
 .dates .importantdate .item ul {
     text-align: left;
+    
     margin:auto;
     width: 100%;
 }
