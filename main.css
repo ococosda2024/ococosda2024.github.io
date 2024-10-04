@@ -1492,10 +1492,10 @@
 .programs .part h4{
     text-align: left;
     font-family: var(--title_face);
-    font-size: var(--h4_size);
+    font-size: var(--h3_size);
     font-weight:normal;
     width: auto;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 
 .programs .part #session-top{
