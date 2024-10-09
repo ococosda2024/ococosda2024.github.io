@@ -2647,6 +2647,24 @@
     font-weight: normal;
 }
 
+.venue table{
+    /* background-color: #fff; */
+    border:3px #000000 solid;
+    width: 100%;
+    
+}
+
+.venue th,.venue td{
+    border:1px #000000 solid;
+    text-align : center;
+    font-size: var(--p_size);
+    font-family: var(--content_face);
+}
+
+.venue .image img {
+    max-width: 100%; /* 确保图片不超过容器宽度 */
+    height: '150px';
+}
 .venue .introduce_div_before{
     display: flex;
     flex-direction:row;
