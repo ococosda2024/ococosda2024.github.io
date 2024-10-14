@@ -2348,6 +2348,7 @@
     background-color: var(--bg1);
     width: var(--large_width);
     margin:auto;
+    border: 0.000001px solid var(--bg1);
 }
 
 .organization h1{
