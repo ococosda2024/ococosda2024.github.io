@@ -2345,7 +2345,7 @@
 /* ==================================================== */
 
 .organization{
-    background-color: var(--bg2);
+    background-color: var(--bg1);
     width: var(--large_width);
     margin:auto;
 }
@@ -2802,7 +2802,7 @@
 
 /* ==================================================== */
 .trans{
-    background-color: var(--bg2);
+    background-color: var(--bg1);
     width: var(--large_width);
     margin:auto;
 }
@@ -2816,6 +2816,43 @@
     width: auto;
 }
 
+.trans h3{
+    text-align: center;
+    font-size: var(--h3_size);
+    font-family: var(--title_face);
+    padding: 40px 0;
+    margin: auto;
+    width: auto;
+}
+
+.trans p{
+    text-align: justify;
+    margin: auto;
+    font-size: var(--p_size);
+    font-family: var(--content_face);
+    line-height: var(--p_line-height);
+    margin: 0 20px;
+    font-weight: normal;
+}
+
+.trans table{
+    /* background-color: #fff; */
+    border:3px #000000 solid;
+    width: 100%;
+    
+}
+
+.trans th,.trans td{
+    border:1px #000000 solid;
+    text-align : center;
+    font-size: var(--p_size);
+    font-family: var(--content_face);
+}
+
+.trans .image img {
+    max-width: 100%; /* 确保图片不超过容器宽度 */
+    height: '100px';
+}
 .trans .introduce_div_before{
     display: flex;
     flex-direction:row;
@@ -2829,7 +2866,6 @@
 }
 
 .trans .introduce_div_before .introduce_div .list{
-    margin-top: 2%;
     padding-left: 40px;
 }
 
@@ -2846,13 +2882,81 @@
 .trans .introduce_div_before .introduce_div .list li{
     padding-left:5px 0;
     font-size: 20px;
-    font-family:var(--title_face);
+    font-family:var(--content_face);
+}
+
+.trans .introduce_div_after{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-around;
+    margin-bottom: 40px;
+}
+
+.trans .introduce_div_after .introduce_div{
+    width:var(--content_width);;
+    margin:10px;
+    text-align: justify;
+}
+
+.trans h2{
+    text-align: left;
+    font-family: var(--title_face);
+    font-size: var(--h2_size);
+    font-weight:bold;
+    width: auto;
+    margin-bottom: 20px;
+}
+
+.trans ol{  
+    padding-left:15px;
+    font-size: 20px; 
+}
+
+.trans li{
+    padding: 5px 0;
+    font-size: var(--p_size);
+    font-family: var(--content_face);
+    font-weight: normal;
+}
+
+.trans .introduce_div_before .introduce_div .photo-container {
+    text-align: center; 
+    margin-top:1%;
+    margin-bottom: 1%;
+}
+
+.trans .introduce_div_before .introduce_div .photo-container img{
+    display: inline-block;
+    width: 45%; 
+    margin: 0 10px; 
+    vertical-align: top;
+}
+
+.trans .introduce_div_before .introduce_div .text-photo{
+    display: flex;
+    align-items: flex-start; /* 垂直居中对齐 */
+    justify-content: space-between; /* 水平间隔 */
+    padding: 20px;
+}
+
+.trans .introduce_div_before .introduce_div .text-photo .text {
+    flex: 1; /* 占据容器的一半宽度 */
+    margin-right: 20px; /* 设置文字和图片之间的间距 */
+}
+
+.trans .introduce_div_before .introduce_div .text-photo .image {
+    flex: 1; /* 占据容器的一半宽度 */
+}
+
+.trans .introduce_div_before .introduce_div .text-photo .image img {
+    max-width: 100%; /* 确保图片不超过容器宽度 */
+    height: auto;
 }
 
 
 @media(max-width: 768px) {
     .trans{
-        background-color: var(--bg2);
+        background-color: var(--bg1);
         width: 100%;
         margin:auto;
     }
@@ -2957,7 +3061,7 @@
 
 /* ==================================================== */
 .accomm{
-    background-color: var(--bg1);
+    background-color: var(--bg2);
     width: var(--large_width);
     margin:auto;
 }
